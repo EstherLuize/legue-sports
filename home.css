@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {  
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+}
+
+
+body{
+   
+}
+nav{
+    display: flex;
+}
+
+
+nav li { 
+    text-decoration: none;
+    list-style: none; 
+    padding-left: 40px;
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav li:hover{
+    color: rgb(83, 25, 190);
+}
+
+a{
+    text-decoration: none;
+}
+
+.legue {
+   padding-left: 35px;
+
+}   
+.legue h1{
+    font-size: 60px;
+    font-family: 'Lobster Two', cursive;
+    color: rgb(83, 25, 190);
+    
+}
+.imagen {
+    margin-left: 20px;
+}
+
+.imagen img {
+    padding-right: 8px;
+    width: 480px;
+    height: 800px;
+    border: 5px solid rgb(255, 255, 255);
+    opacity: 1;
+}
+.imagen img:hover{
+
+    opacity: 0.5;
+}
+.player img{
+    padding-right: 8px;
+    width: 480px;
+    height: 800px;
+    border: 5px solid rgb(255, 255, 255);
+    opacity: 1;
+}
+.player {
+    margin-left: 20px;
+}
+.player img:hover{
+
+    opacity: 0.5;
+}
+.team {
+    font-size: 30px;
+    text-align: center;
+}
+.Brasil{
+    color: rgb(17, 243, 17);
+}
+.argentina{
+    color:rgb(51, 177, 241)
+}
+.roma{
+    color: rgb(213, 168, 85);
+}
+.team{
+    font-family: 'Antic Slab', serif;
+}
+.jogo{
+    font-size: 30px;
+    text-align: center;
+
+}
+.taça{
+    color: rgb(29, 209, 29);
+}
+.coração{
+    color: red;
+
+}
+.br{
+    color: rgb(196, 196, 16);
+}
+.jogo{
+    font-family: 'Antic Slab', serif;
+
+}
+.el{
+    font-family: 'Lobster Two', cursive;
+}
+.el{
+  margin-left: 1316px;
+}
