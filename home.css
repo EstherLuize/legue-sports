@@ -25,10 +25,11 @@ html{
     background: #000000;
 }
 
-
 body{
-   
+    background-color: hsl(0, 0%, 100%);
 }
+
+
 nav{
     display: flex;
 }
@@ -43,11 +44,34 @@ nav li {
     font-family: 'Josefin Sans', sans-serif;
 }
 nav li:hover{
-    color: rgb(83, 25, 190);
+    color: rgb(89, 0, 255);
 }
 
 a{
     text-decoration: none;
+}
+
+
+@keyframes colorPipe{
+	0%{
+		color: #ffffff;
+		animation-timing-function: ease-out;
+	}
+	40%{
+		color: #3f2afc;
+		animation-timing-function: ease-out;
+	}
+	60%{
+		color: #00ff40;
+		animation-timing-function: ease-out;
+	}
+	100%{
+		color: #f9fd07;
+		animation-timing-function: ease-out;
+	}
+}
+.animation{
+	animation: colorPipe 30s linear alternate-reverse infinite;
 }
 
 .legue {
@@ -61,8 +85,9 @@ a{
     
 }
 .imagen {
-    margin-left: 20px;
+    margin-left: 10%;
 }
+
 
 .imagen img {
     padding-right: 8px;
@@ -83,7 +108,7 @@ a{
     opacity: 1;
 }
 .player {
-    margin-left: 20px;
+    margin-left: 10%;
 }
 .player img:hover{
 
@@ -106,6 +131,7 @@ a{
     font-family: 'Antic Slab', serif;
 }
 .jogo{
+    margin-right: 15%;
     font-size: 30px;
     text-align: center;
 
