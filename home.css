@@ -3,6 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
 *{
     box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url(./img/pexels-furknsaglam-3131406.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: cover;
+    background-size: 100%;
 }
 
 html{
@@ -29,6 +38,10 @@ body{
     background-color: hsl(0, 0%, 100%);
 }
 
+p{
+    color: #fff;
+}
+
 
 nav{
     display: flex;
@@ -36,6 +49,7 @@ nav{
 
 
 nav li { 
+    color: #fff;
     text-decoration: none;
     list-style: none; 
     padding-left: 40px;
@@ -137,7 +151,7 @@ a{
 
 }
 .taça{
-    color: rgb(29, 209, 29);
+    color: rgb(18, 230, 18);
 }
 .coração{
     color: red;
@@ -151,8 +165,10 @@ a{
 
 }
 .el{
+    color: #fff;
     font-family: 'Lobster Two', cursive;
 }
 .el{
   margin-left: 1316px;
 }
+
