@@ -15,7 +15,7 @@ Projeto criado para aprimorar conhecimentos relacionados a HTML, CSS e JS. Legue
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="20" height="20"/> - JS
 
 #
-## Considerações
+## Considerações🚧
 
 - Para visualizar o site acesse o link: https://legue-esportes-estherluize.netlify.app
  
